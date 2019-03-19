@@ -1,0 +1,74 @@
+.m-portlet-widget {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 16px;
+  .m-portlet__head {
+    padding: 0 10px 0 20px;
+    height: 3rem;
+    border-bottom: 0;
+    .m-portlet__head-tools {
+      position: relative;
+      overflow: hidden;
+      white-space: nowrap;
+      padding: 12px 0;
+
+      i {
+        padding: 7px 7px 7px 7px;
+        font-size: 1.2rem;
+        color: #e0e8f1;
+
+        &:hover {
+          cursor: pointer;
+          color: #716aca !important;
+        }
+      }
+    }
+    .m-portlet__head-caption {
+      .m-portlet__head-title {
+        .m-portlet__head-text {
+          padding: 15px 0;
+          font-family: Poppins;
+          color:  #72818f;
+          font-size: 16px;
+          font-weight: 400;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          width: calc(100% - 90px);
+          position: fixed;
+        }
+      }
+    }
+
+    .m-dropdown {
+      i {
+        font-size: 32px !important;
+        color: #e0e8f1 !important;
+      }
+      .m-dropdown__wrapper {
+        top: 34px;
+        right: 7px;
+        i {
+          font-size: 1.4rem !important;
+          color: #c1bfd0 !important;
+        }
+        span {
+          cursor: pointer;
+        }
+      }
+
+      &:hover {
+          .m-dropdown__wrapper {
+          display: block !important;
+        }
+      }
+    }
+  }
+  .m-portlet__body {
+    padding: 0 20px 20px;
+    width: 100%;
+    height: 100%;
+  }
+
+
+}
