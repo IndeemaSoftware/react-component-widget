@@ -1,5 +1,3 @@
-![React Dashboard]
-
 ## Introduction
 
 React Widget Component
