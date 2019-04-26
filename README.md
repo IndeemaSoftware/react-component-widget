@@ -1,5 +1,3 @@
-Github url
-
 ## Title
 
 React Widget Component
